@@ -1,0 +1,720 @@
+<html>
+    <head>
+        <title>India news</title>
+        <style type="text/css">
+        #topbar {
+            width:1200px;
+            height:40px;
+            margin: 0 auto;}
+        body{
+            margin:0;
+            padding: 0;
+            font-family: Helvetica,Arial,sans-serif;
+        }
+        #logo{
+            margin-right: 8px;
+            float:left;
+            
+        }
+        .topbar-section{
+            float: left;
+            border-left: 1px #cccccc solid;
+            height: 100%;
+        }
+        .signin-section{
+            margin: 6px;
+            float: left;}
+        a{
+            margin-top: 8px;
+            text-decoration: none;
+        }
+        #signin-text{
+            font-weight: bold;
+            font-size: 90%;
+            position: relative;
+            top: 15px;
+            padding-right: 50px;
+        }
+        .topbar-menu{
+            font-weight: bold;
+            font-size: 90%;
+            padding:14px 15px;
+            height: 14px;
+        }
+        #search-box{
+            font-weight: bold;
+            padding: 8px;
+            background-color: #e4e4e4;
+            margin: 5px 0px 5px 5px;
+            float: left;
+
+        }
+        #secondbar{
+            
+            width: 100%;
+            height: 70px;
+            background-color: #bb1919;
+        }
+        #magnifying-glass{
+            margin-top: 5px;
+            margin-left: 0px;
+            height: 34px;
+        }
+        .clear{
+            clear: both;
+        }
+        #menu-bar{
+           
+             width:1200px;
+            margin: 0 auto;}
+        
+        h1{
+            padding: 0px;
+            margin: 0px;
+            color: white;
+            font-size: 40px;
+            font-weight: normal;
+            padding-top: 10px;
+        }
+        #local-news{
+            float: right;
+    
+        }
+        .topbar-menu a{
+            color: black;
+        }
+        a:hover{
+            color:blueviolet;
+        }
+        #local-news a{
+            color:white;
+            text-decoration: none;
+            font-size: 20px;
+            position: relative;
+            top: -23px;
+        }
+        #local-news a:hover{
+            text-decoration: underline;
+        }
+        #thirdbar{
+            width: 100%;
+            height: 50px;
+            background-color: maroon;
+            
+        }
+        #thirdbar-menu{
+            width:1200px;
+            margin: 0 auto;
+        }
+        #thirdbar-menu a{
+            position: relative;
+            top: 17px;
+            color: white;
+            float: left;
+            margin-right: 8px;
+            
+        }
+        #thirdbar-menu a:hover{
+            text-decoration: underline;
+        }
+        #thirdbar-section{
+            float: left;
+            border-left: 1px grey solid;
+            height: 100%;
+            padding-right: 15px;
+            padding-left: 18px;}
+            #page-container{
+                width:1200px;
+                
+                margin: 0 auto;
+            }
+            h2{
+                margin-left: 400px;
+                margin-right: 400px;
+                position: relative;
+                top: -20px;
+                font-weight: bold;
+                font-style: italic;
+                color: indigo;
+
+            }
+            #subhas{
+                padding: 5px;
+            }
+            #moving-text{
+                margin: 0px;
+                width: 100%;
+                height: 50px;
+                background-color: lightgoldenrodyellow;
+            }
+            #text-section{
+                color: black;
+                font-weight:normal;
+                font-size: 20px;
+                padding: 10px;
+
+            }
+            #mamta{
+                padding: 0px;
+                padding-top: 8px;
+                float: left: ;
+                
+                }
+                #ab{
+                    position: relative;
+                    top: -344px;
+                    margin-left: 5px;
+                    
+                }
+                #abc{
+                    position: relative;
+                    right: 175px;
+                    top:-235px;
+                    width: 170px;
+                }
+                #abcd{
+                     position: relative;
+                     right: -765px;
+                     top: -230px;
+                }
+                #abcde{
+                    position: relative;
+                    top: -125px;
+                    right: -590px;
+
+                }
+                #abcdef{
+                    position: relative;
+                    right: 350px;
+                }
+                #abcdefg{
+                    position: relative;
+                    right: 165px;
+                }
+                #abcdefgh{
+                    position: relative;
+                    right: -60px;
+                    top: -15px;
+                }
+                #news-s{
+                    float:right;
+                    position: relative;
+                    top: -550px;
+                    right: 15 px;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                #news-se{
+                    float:right;
+                    position: relative;
+                    right: -230px;
+                    top: -450px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    }
+                    #news-sec{
+                        float:right;
+                    position: relative;
+                    right: -500px;
+                    top: -325px;
+                    font-size: 20px;
+                    font-weight: bold;
+
+                    }
+                    #news-sect{
+                        float:right;
+                    position: relative;
+                    right: -820px;
+                    top: -220px;
+                    font-size: 20px;
+                    font-weight: bold;
+
+                    }
+                    #news-secti{
+                        float:right;
+                    position: relative;
+                    right: 48px;
+                    top: -200px;
+                    font-size: 20px;
+                    font-weight: bold;
+
+                    }
+                    #news-sectio{
+                        float:right;
+                    position: relative;
+                    right: 240px;
+                    top: -198px;
+                    font-size: 20px;
+                    font-weight: bold;
+
+                    }
+                    #news-section{
+                        float:right;
+                    position: relative;
+                    right: 430px;
+                    top: -195px;
+                    font-size: 20px;
+                    font-weight: bold;
+
+                    }
+                    #news a:hover{
+                        text-decoration: underline;
+                    }
+                    .clear{
+                        both
+                    }
+                  #india{
+                width:1200px;
+                
+                margin: 0 auto;
+            }
+            
+            
+            #india h4{
+                font-size: 33px;
+                
+                
+            }
+            #india-section{
+                float: left;
+            
+            }
+            #india-section a{
+                color: black;
+            }
+            #india-section a:hover{
+                text-decoration: underline;
+            }
+            h3{
+                font-weight: normal;
+
+            }
+            #india-another-section{
+                position: relative;
+                right: -375px;
+                
+                top: -270px;
+            }
+            #news a{
+                color: black;
+            }
+            #news a:hover{
+                text-decoration: underline;
+            }
+            #india-one{
+             position: relative;
+             top: -530px;
+             right: -700px;
+            }
+            #cricket{
+                width:1200px;
+                height: 500px;
+                background-color: #2f5abc;
+                margin-left: 200px;
+                margin-right: 200px;
+                position: relative;
+                top: 310px;
+                right: 44px;
+            
+                
+            }
+           
+            #cricket h3{
+                position: relative;
+                right: -100px;
+                top: -40px;
+                font-size: 40px;
+            }
+            #bat{
+                font-weight: bold;
+                color: white;
+                border-right: #cccccc 1px solid;
+                padding-right: 10px;
+            }
+            #sports{
+                font-weight: bold;
+                color: white;
+                margin-left: 10px;  
+            }
+            #cricket-img{
+                position: relative;
+                right: 300px;
+                top: -60px;
+               
+                
+            }
+            #crick-img{
+                border-top: #cccccc 1px solid;
+                padding-top: 10px;
+                float: left;
+                
+            }
+            #cricket-text{
+                position: relative;
+                right: 100px;
+                font-weight: normal;
+                
+               
+            }
+
+            
+            #cricket-text a{
+                color: white;
+                font-size: 33px;
+                position: relative;
+                top: 300px;
+                right: 370px;
+            
+            }
+            #cricket-text a:hover{
+                text-decoration: underline;
+            }
+            #image{
+                float: right;
+                margin-right: 14px;
+                position: relative;
+                top: -210px;
+                border-top: #cccccc 1px solid;
+                padding-top: 10px;
+            }
+            #crick-text a{
+                color:white;
+                font-size: 33px;
+                position: relative;
+                top: 70px;
+                right: -140px;
+            
+            }
+            #crick-text a:hover{
+                text-decoration: underline;
+            }
+            #fitjee{
+                position: relative;
+                top: 300px;
+                right: 225px;
+            }
+            #vid h4{
+                font-weight: bold;
+                position: relative;
+                top: 250px;
+                right:300px;
+                font-size: 40px;
+            }
+            #videos{
+                position: relative;
+                top: 200px;
+                right: -200px;
+            }
+            #last{
+                width:100%;
+                height: 400px;
+                position: relative;
+                top: 300px;
+                background-color: #333;
+            
+            }
+            #video{
+                position: relative;
+                top: 200px;
+                right: -300px;
+            }
+            #last-sec{
+                width: 75%;
+                
+            }
+            #logoo{
+                float: right;
+                position: relative;
+                top: -380px;
+                right: 90px;
+                width: 14%;
+                height: 27%;
+            }
+            $green: #008744;
+$blue: #0057e7;
+$red: #d62d20;
+$yellow: #ffa700;
+$white: #eee;
+
+// scaling... any units
+$width: 100px;
+
+.loader {
+  position: relative;
+  margin: 0 auto;
+  width: $width;
+  &:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+}
+
+.circular {
+  animation: rotate 2s linear infinite;
+  height: 100%;
+  transform-origin: center center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.path {
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  stroke-linecap: round;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+
+@keyframes color {
+  100%,
+  0% {
+    stroke: $red;
+  }
+  40% {
+    stroke: $blue;
+  }
+  66% {
+    stroke: $green;
+  }
+  80%,
+  90% {
+    stroke: $yellow;
+  }
+}
+
+// demo-specific
+body {
+  background-color: $white;
+}
+.showbox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5%;
+}
+
+            
+            
+
+        
+                
+            
+
+        
+</style>
+</head>
+
+<body>
+    <div class="showbox">
+        <div class="loader">
+          <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+          </svg>
+        </div>
+      </div>
+    <div id="topbar">
+        <img id="logo" src="ABC.png" width="100px" height="38px">
+        <div id="signin-div" class="topbar-section">
+            <img class="signin-section"  src="signin1.png">
+            <span id="signin-text"> sign in </span>
+        </div>
+            
+        
+        <div class="topbar-section topbar-menu"><a href="">News</a></div>
+        
+        
+    
+
+        <div class="topbar-section topbar-menu"><a href="">Sport</a></div>
+        
+        
+    
+    <div class="topbar-section topbar-menu"><a href="">Weather</a></div>
+        
+        
+
+<div class="topbar-section topbar-menu"><a href="">iplayer</a></div>
+        
+        
+
+<div class="topbar-section topbar-menu"><a href="">TV</a></div>
+<div class="topbar-section topbar-menu"><a href="">bollywood</a></div>
+<div class="topbar-section topbar-menu"><a href="">GK</a></div>      
+        
+
+<div class="topbar-section topbar-menu"><a href="">more<select><option></option><option>discovery</option><option>cartoon</option><option>
+    music
+</option><option>future</option><option>worklife</option><option>travel</option><option>culture</option></select></a></div>
+<div class="topbar-section">
+    <input id="search-box" type="text" value="search">
+    <img id="magnifying-glass"src="search.png">
+</div></div>
+<div class="clear"></div>
+
+<div id="secondbar">
+    <div id="menu-bar">
+
+   
+    <h1>NEWS</h1>
+    <div id="local-news"><a href=""> find local news</a></div>
+</div>
+</div>
+<div id="thirdbar">
+    <div id="thirdbar-menu">
+        <a href="">Home</a>
+        <div id="thirdbar-section">
+            <a href="">world</a>
+        </div>
+        <div id="thirdbar-section">
+            <a href="">videos</a>
+        </div>
+        <div id="thirdbar-section">
+            <a href="">business</a>
+        </div>
+        <div id="thirdbar-section">
+            <a href="">Tech</a>
+        </div>
+        <div id="thirdbar-section">
+            <a href="">Health</a>
+        </div>
+        <var> <div id="thirdbar-section">
+            <a href="">Entertainment</a>
+        </div>
+        <div id="thirdbar-section">
+            <a href="">Science</a>
+        </div>
+        <div id="thirdbar-section">
+            <a href="">Stories</a>
+        </div><div id="thirdbar-section">
+            <a href="">World news tv</a>
+        </div><div id="thirdbar-section">
+            <a href="">Delhi</a>
+        </div>
+    </div>
+</div class="clear">
+
+</div>
+<div id="page-container">
+    <div id="main-article">
+        <img id="subhas" src="subhash.png">
+       
+    </div>
+
+
+    <h2><a href="">WATCH NOW</a></h2>
+
+
+<div id="moving-text">
+    <marquee id="text-section" behavior="scroll" direction="left" >Sensex rises 290 points,Nifty closes above 10,100</marquee>      
+
+    
+
+    
+    
+</div>
+
+   <img id="mamta" src="aaa.png">
+   <img id="ab" src="1st.png">
+   
+   <img id="abc" src="2nd.png">
+   <img id="abcd" src="3rd.png">
+   <img id="abcde" src="4thnew.png">
+   <img id="abcdef" src="5th.png">
+   <img id="abcdefg" src="6th.png">
+   <img id="abcdefgh" src="7th.png">
+   
+
+<div id="news"><span id="news-s"><a href="">Looking at all possible<br>options to stage IPL 2020,<br>says BCCI boss Ganguly</span></a></div>
+<div id="news"><span id="news-se"><a href="">IIT Delhi falls 11 spots <br>in QS World University<br> Rankings, IIT Bombay<br> is India's top university</span></a></div>
+<div id="news" ><span id="news-sec"><a href="">NHRC issues notices to Delhi <br>Govt, Union Health <br>Ministry lover COVID-19<br> mismanagement allegations</span></a></div>
+<div id="news"><span id="news-sect"><a href="">SBI looking for CFO,<BR> annual package up to<BR> Rs 1 crore, three times <BR>more than bank Chairman's CTC</span></a></div>
+ <div id="news" ><span id="news-secti"><a href="">The curious case of <BR> missing Sonam in her<BR> birthday tweet by <BR>Satrughan Sinha</span></a></div>
+ <div id="news"><span id="news-sectio"><a href="">Nepali PM Omi irked<BR> by presence of indian<br> forcesin Kalapani,<br> comments <br>by UP CM Yogi</span></a></div>
+ <div id="news" ><span id="news-section"><a href="">Fitch forecast 9.5%<br> growthin Indian<br> economy, in next <br>fesical </span></a></div>
+
+</div>
+
+
+<div id="india">
+    <h4>INDIA</h4>
+    
+    <div id="india-section">
+        <img src="indiaaa.png"><a href=""><h3 class="article-heading">97-year-old with heart ailments,<br> hypertension beats COVID-19 in Chennai </h3></a>
+<span id="india-another-section"><a href=""><h3>Maharashtra becomes first <br> state in India to cross <br> one lakh COVID-19 cases  </h3></a></span>
+<span id="india-another-section"><a href=""><h3>HD Deve Gowda, Mallikarjun <br> Kharge, two  BJP leaders <br> elected unopposed to Rajya Sabha</h3></a></span>
+    <span id="india-another-section"><a href=""><h3> Nepali forces fire at <br> Indian farmers  along Bihar <br> border; 1 killed, 3 injured</h3></a></span>
+    <span id="india-one"><a href=""><h3>Doubling time of COVID-19 cases <br>  in India improves to 17.4 days,<br> recovery rate 49.47%: Centre</h3></a></span>
+    <span id="india-one"><a href=""><h3>Mayoral election in Delhi to be <br> held on June 24, last date for <br> filing nomination June 17</h3></a></span>
+        <span id="india-one"><a href=""><h3> Movement of people strictly <br> prohibited between 9 pm and 5 am <br> across country: MHA issues new guidelines</h3></a></span>
+    </div>
+</div></div>
+<div id="clear"></div>
+<div id="cricket">
+     <h3><span id="bat">Cricket</span><span id="sports">Sports</span></h3>
+
+    <div id="cricket-img">
+        <img id="crick-img" src="cricket1.png">
+        <span id="cricket-text"><h3><a href="">Trying to bowl like you my <br> little brother: Yuzvendra <br> Chahal to Kuldeep Yadav...</a></h3></span>
+    </div>
+    
+    <img id="image" src="cricket2.png">
+    <span id="crick-text"><h3><a href=""> Odisha FC </a></h3></span>
+ 
+
+</div>
+<div id="clear"></div>
+<div id="fitjee">
+    <img src="fitjee.png">
+</div>
+<div id="clear"></div>
+<div id="vid">
+<h4>Videos</h4>
+<iframe id="videos" width="560" height="315" src="https://www.youtube.com/embed/k_Vg2XuZ738" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/sHlJbVYLjlE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div id="last">
+    <img id="last-sec" src="last.png">
+    <img id="follow" src="follow.png">
+    <img id="logoo" src="abcd.png">
+
+</div>
+
+
+   
+
+
+
+
+
+
+</body>
+</html> 
