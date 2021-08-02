@@ -352,7 +352,7 @@
             #cricket-text{
                 position: relative;
                 right: 100px;
-                font-weight: normal;
+                font-weight: bold;
                 
                
             }
