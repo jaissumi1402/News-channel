@@ -56,7 +56,7 @@
             background-color: #bb1919;
         }
         #magnifying-glass{
-            margin-top: 5px;
+            margin-top: 4px;
             margin-left: 0px;
             height: 34px;
         }
@@ -156,7 +156,7 @@
             }
             #mamta{
                 padding: 0px;
-                padding-top: 8px;
+                padding-top: 7.5px;
                 float: left: ;
                 
                 }
